@@ -1,6 +1,4 @@
 ```mermaid
-
-
 sequenceDiagram
     participant Server1
     participant Client
@@ -42,5 +40,4 @@ sequenceDiagram
     Client->>+Server1: DhcpRequest
     Client->>+Server2: DhcpRequest
     Server2-->>-Client: DhcpPack
-    note over Client: The user turn OFF the PC for 1 hour
-    ```
+    note over Client: The user turn OFF the PC```
