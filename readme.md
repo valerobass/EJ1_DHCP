@@ -42,8 +42,5 @@ sequenceDiagram
     Client->>+Server1: DhcpRequest
     Client->>+Server2: DhcpRequest
     Server2-->>-Client: DhcpPack
-    note over Client: At 50% of the lease answer at server If the ip is still available
-    note over Client: The client send a DhcpRequest and the server confirm the ip is still available
-    note over Client: The client shut down the PC
-
-    ```
+    note over Client: The client end the session
+    ```    
