@@ -42,4 +42,5 @@ sequenceDiagram
     Client->>+Server1: DhcpRequest
     Client->>+Server2: DhcpRequest
     Server2-->>-Client: DhcpPack
-    ```    
+    note over Client: The user turn OFF the PC for 1 hour
+    ```
