@@ -42,5 +42,4 @@ sequenceDiagram
     Client->>+Server1: DhcpRequest
     Client->>+Server2: DhcpRequest
     Server2-->>-Client: DhcpPack
-    note over Client: The client end the session
     ```    
